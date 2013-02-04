@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:padding="10dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="#FFF">
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_weight="1"
+       android:orientation="horizontal" android:layout_marginBottom="10dp">
+
+       <FrameLayout
+           android:id="@+id/frameLayout1"
+           android:layout_height="fill_parent"
+           android:layout_marginRight="10dp"
+           android:layout_width="fill_parent"
+           android:layout_weight="1"
+           android:background="@drawable/dred" >
+
+       </FrameLayout>
+
+       <LinearLayout
+           android:id="@+id/linearLayout1"
+           android:layout_height="fill_parent"
+           android:layout_width="fill_parent"
+           android:layout_weight="1"
+           android:orientation="vertical" >
+			<TextView
+	            android:id="@+id/txt_userAge1"  android:background="@drawable/blue"
+	            android:layout_width="fill_parent"
+	            android:layout_height="75dp"	
+	            android:layout_marginBottom="5dp"
+	            android:text="Item"	android:gravity="center"
+	            android:textColor="#ffffff"
+	            android:textSize="18sp" >
+	        </TextView>
+	        <TextView
+	            android:id="@+id/txt_userAge2"  android:background="@drawable/blue"
+	            android:layout_width="fill_parent"
+	            android:layout_height="75dp"	
+	            android:text="Item"	android:gravity="center"
+	            android:textColor="#ffffff"
+	            android:textSize="18sp" >
+	        </TextView>
+       </LinearLayout>
+
+   </LinearLayout>
+    
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" android:layout_marginBottom="10dp">
+
+        <FrameLayout
+            android:id="@+id/frameLayout02"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/dyell" android:layout_width="fill_parent">
+
+        </FrameLayout>
+        
+            <LinearLayout
+           android:id="@+id/linearLayout2"
+           android:layout_height="fill_parent"
+           android:layout_weight="1"
+           android:orientation="vertical" android:layout_width="fill_parent">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="fill_parent"
+		            android:layout_height="fill_parent"	
+		            android:layout_marginBottom="5dp" android:layout_weight="1">
+                    <TextView
+			            android:id="@+id/txt_userAge3"  android:background="@drawable/dred"
+			            android:layout_weight="1"
+			            android:layout_height="fill_parent"	
+			            android:text="Item"	android:gravity="center"
+			            android:textColor="#ffffff"
+			            android:textSize="18sp" android:layout_marginRight="5dp" android:layout_width="wrap_content">
+			        </TextView>
+			        <TextView
+			            android:id="@+id/txt_userAge4"  android:background="@drawable/dred"
+			            android:layout_height="fill_parent"	
+			            android:layout_weight="1"
+			            android:text="Item"	android:gravity="center"
+			            android:textColor="#ffffff"
+			            android:textSize="18sp" android:layout_width="wrap_content">
+			        </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="fill_parent"
+		            android:layout_height="fill_parent"	
+		            android:layout_weight="1">
+                    <TextView
+			            android:id="@+id/txt_userAge4"  android:background="@drawable/dred"
+			            android:layout_weight="1"
+			            android:layout_width="wrap_content"
+			            android:layout_height="fill_parent"	
+			            android:text="Item"	android:gravity="center"
+			            android:textColor="#ffffff"
+			            android:textSize="18sp" android:layout_marginRight="5dp">
+			        </TextView>
+			        <TextView
+			            android:id="@+id/txt_userAge5"  android:background="@drawable/dred"
+			            android:layout_height="fill_parent"	
+			            android:layout_weight="1"
+			            android:layout_width="wrap_content"
+			            android:text="Item"	android:gravity="center"
+			            android:textColor="#ffffff"
+			            android:textSize="18sp" >
+			        </TextView>
+                </LinearLayout>
+
+       </LinearLayout>
+    
+    </LinearLayout>
+    
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_weight="1"
+       android:orientation="horizontal" android:layout_marginBottom="10dp">
+
+       <LinearLayout
+           android:id="@+id/linearLayout5"
+           android:layout_height="fill_parent"
+           android:layout_width="fill_parent"
+           android:layout_weight="1"
+           android:layout_marginRight="10dp"
+           android:orientation="vertical" >
+			<TextView
+	            android:id="@+id/txt_userAge6"  android:background="@drawable/blue"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"	
+	            android:layout_marginBottom="5dp"
+	            android:text="Item"	android:gravity="center"
+	            android:textColor="#ffffff"
+	            android:textSize="18sp" android:layout_weight="1">
+	        </TextView>
+	        <TextView
+	            android:id="@+id/txt_userAge7"  android:background="@drawable/blue"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"	
+	            android:text="Item"	android:gravity="center"
+	            android:textColor="#ffffff"
+	            android:textSize="18sp" android:layout_weight="1">
+	        </TextView>
+       </LinearLayout>
+       
+           <FrameLayout
+           android:id="@+id/frameLayout3"
+           android:layout_height="fill_parent"
+           android:layout_width="fill_parent"
+           android:layout_weight="1"
+           android:background="@drawable/dred" >
+
+       </FrameLayout>
+
+   </LinearLayout>
+</LinearLayout>
