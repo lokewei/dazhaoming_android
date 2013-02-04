@@ -2,7 +2,7 @@
 <resources>
 
     <string name="hello">Hello World, MiLaucherActivity!</string>
-    <string name="app_name">demo</string>
+    <string name="app_name">大照明</string>
     <string name="ani_time">350</string>
  <string name="ani_time2">700</string>
 </resources>

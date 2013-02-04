@@ -3,8 +3,9 @@
     android:orientation="vertical" 
     android:padding="10dip"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" android:background="#FFF">
-
+    android:layout_height="fill_parent" android:background="@drawable/bg_black">
+
+
    <LinearLayout
        android:layout_width="fill_parent"
        android:layout_height="fill_parent"
@@ -17,10 +18,18 @@
            android:layout_marginRight="10dp"
            android:layout_width="fill_parent"
            android:layout_weight="1"
-           android:background="@drawable/dred" >
-
+           android:background="@drawable/red_palet_style" android:clickable="true">
+		   <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"	
+	            android:text="首页"	android:gravity="center"
+	            android:textColor="#ffffff"
+	            android:textSize="18sp">
+	        </TextView>
        </FrameLayout>
-
+
+
+
        <LinearLayout
            android:id="@+id/linearLayout1"
            android:layout_height="fill_parent"
@@ -28,26 +37,29 @@
            android:layout_weight="1"
            android:orientation="vertical" >
 			<TextView
-	            android:id="@+id/txt_userAge1"  android:background="@drawable/blue"
+	            android:id="@+id/txt_userAge1"  android:background="@drawable/blue_palet_style"
 	            android:layout_width="fill_parent"
-	            android:layout_height="75dp"	
+	            android:layout_height="fill_parent"	
 	            android:layout_marginBottom="5dp"
-	            android:text="Item"	android:gravity="center"
+	            android:text="LED"	android:gravity="center"
 	            android:textColor="#ffffff"
-	            android:textSize="18sp" >
+	            android:textSize="18sp" android:layout_weight="1" 
+	            android:clickable="true"
+	            android:onClick="paletClickHandler">
 	        </TextView>
 	        <TextView
-	            android:id="@+id/txt_userAge2"  android:background="@drawable/blue"
+	            android:id="@+id/txt_userAge2"  android:background="@drawable/blue_palet_style"
 	            android:layout_width="fill_parent"
-	            android:layout_height="75dp"	
-	            android:text="Item"	android:gravity="center"
+	            android:layout_height="fill_parent"	
+	            android:text="灯饰"	android:gravity="center"
 	            android:textColor="#ffffff"
-	            android:textSize="18sp" >
+	            android:textSize="18sp" android:layout_weight="1" android:clickable="true">
 	        </TextView>
        </LinearLayout>
 
    </LinearLayout>
-    
+    
+
    <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -59,7 +71,7 @@
             android:layout_height="fill_parent"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:background="@drawable/dyell" android:layout_width="fill_parent">
+            android:background="@drawable/dyell" android:layout_width="fill_parent" android:clickable="true">
 
         </FrameLayout>
         
@@ -75,20 +87,20 @@
 		            android:layout_height="fill_parent"	
 		            android:layout_marginBottom="5dp" android:layout_weight="1">
                     <TextView
-			            android:id="@+id/txt_userAge3"  android:background="@drawable/dred"
+			            android:id="@+id/txt_userAge3"  android:background="@drawable/red_palet_style"
 			            android:layout_weight="1"
 			            android:layout_height="fill_parent"	
-			            android:text="Item"	android:gravity="center"
+			            android:text="宏观"	android:gravity="center"
 			            android:textColor="#ffffff"
-			            android:textSize="18sp" android:layout_marginRight="5dp" android:layout_width="wrap_content">
+			            android:textSize="18sp" android:layout_marginRight="5dp" android:layout_width="wrap_content" android:clickable="true">
 			        </TextView>
 			        <TextView
-			            android:id="@+id/txt_userAge4"  android:background="@drawable/dred"
+			            android:id="@+id/txt_userAge4"  android:background="@drawable/red_palet_style"
 			            android:layout_height="fill_parent"	
 			            android:layout_weight="1"
-			            android:text="Item"	android:gravity="center"
+			            android:text="微博"	android:gravity="center"
 			            android:textColor="#ffffff"
-			            android:textSize="18sp" android:layout_width="wrap_content">
+			            android:textSize="18sp" android:layout_width="wrap_content" android:clickable="true">
 			        </TextView>
                 </LinearLayout>
 
@@ -98,22 +110,22 @@
 		            android:layout_height="fill_parent"	
 		            android:layout_weight="1">
                     <TextView
-			            android:id="@+id/txt_userAge4"  android:background="@drawable/dred"
+			            android:id="@+id/txt_userAge4"  android:background="@drawable/red_palet_style"
 			            android:layout_weight="1"
 			            android:layout_width="wrap_content"
 			            android:layout_height="fill_parent"	
-			            android:text="Item"	android:gravity="center"
+			            android:text="人物"	android:gravity="center"
 			            android:textColor="#ffffff"
-			            android:textSize="18sp" android:layout_marginRight="5dp">
+			            android:textSize="18sp" android:layout_marginRight="5dp" android:clickable="true">
 			        </TextView>
 			        <TextView
-			            android:id="@+id/txt_userAge5"  android:background="@drawable/dred"
+			            android:id="@+id/txt_userAge5"  android:background="@drawable/red_palet_style"
 			            android:layout_height="fill_parent"	
 			            android:layout_weight="1"
 			            android:layout_width="wrap_content"
-			            android:text="Item"	android:gravity="center"
+			            android:text="电子报"	android:gravity="center"
 			            android:textColor="#ffffff"
-			            android:textSize="18sp" >
+			            android:textSize="18sp" android:clickable="true">
 			        </TextView>
                 </LinearLayout>
 
@@ -135,21 +147,21 @@
            android:layout_marginRight="10dp"
            android:orientation="vertical" >
 			<TextView
-	            android:id="@+id/txt_userAge6"  android:background="@drawable/blue"
+	            android:id="@+id/txt_userAge6"  android:background="@drawable/blue_palet_style"
 	            android:layout_width="fill_parent"
 	            android:layout_height="fill_parent"	
 	            android:layout_marginBottom="5dp"
-	            android:text="Item"	android:gravity="center"
+	            android:text="企业"	android:gravity="center"
 	            android:textColor="#ffffff"
-	            android:textSize="18sp" android:layout_weight="1">
+	            android:textSize="18sp" android:layout_weight="1" android:clickable="true">
 	        </TextView>
 	        <TextView
-	            android:id="@+id/txt_userAge7"  android:background="@drawable/blue"
+	            android:id="@+id/txt_userAge7"  android:background="@drawable/blue_palet_style"
 	            android:layout_width="fill_parent"
 	            android:layout_height="fill_parent"	
-	            android:text="Item"	android:gravity="center"
+	            android:text="专栏"	android:gravity="center"
 	            android:textColor="#ffffff"
-	            android:textSize="18sp" android:layout_weight="1">
+	            android:textSize="18sp" android:layout_weight="1" android:clickable="true">
 	        </TextView>
        </LinearLayout>
        
@@ -158,7 +170,7 @@
            android:layout_height="fill_parent"
            android:layout_width="fill_parent"
            android:layout_weight="1"
-           android:background="@drawable/dred" >
+           android:background="@drawable/red_palet_style" android:clickable="true">
 
        </FrameLayout>
 
